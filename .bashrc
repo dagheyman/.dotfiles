@@ -1,4 +1,4 @@
-# Terminal propmpt
+# Terminal prompt
 export PS1="\u$ "
 
 # Resonable ls
