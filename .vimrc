@@ -1,3 +1,6 @@
+" No swap-file
+set noswapfile
+
 " Colors and highlighting
 syntax on
 set background=dark
