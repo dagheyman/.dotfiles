@@ -11,4 +11,8 @@ set expandtab
 set softtabstop=4
 set shiftwidth=4
 
+" Searching
+set hlsearch
+set incsearch
+
 filetype indent on
