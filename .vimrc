@@ -15,4 +15,7 @@ set shiftwidth=4
 set hlsearch
 set incsearch
 
+" Splitting
+set splitright
+
 filetype indent on
