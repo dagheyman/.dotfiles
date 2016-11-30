@@ -15,6 +15,7 @@ fi
 echo "Creating links..."
 ln -sf .dotfiles/.bashrc
 ln -sf .dotfiles/.vimrc
+ln -sf .dotfiles/.tmux.conf
 echo "...done."
 
 exit 0
