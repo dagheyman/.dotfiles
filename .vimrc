@@ -19,12 +19,17 @@ au FileType py set textwidth=79
 " Show trailing whitespace
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
-
 " Searching
 set hlsearch
 set incsearch
+
+" Fix backspace
+set backspace=indent,eol,start
 
 " Splitting
 set splitright
 
 filetype indent on
+
+" Enable the mouse
+set mouse=a
