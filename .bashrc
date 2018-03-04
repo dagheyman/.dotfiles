@@ -9,3 +9,6 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 # Python development
 export PYTHONDONTWRITEBYTECODE=1
+
+# Default editor
+export EDITOR=vim
