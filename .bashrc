@@ -12,3 +12,7 @@ export PYTHONDONTWRITEBYTECODE=1
 
 # Default editor
 export EDITOR=vim
+
+# SSH Key on YubiKey
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpg-connect-agent updatestartuptty /bye >> /dev/null
