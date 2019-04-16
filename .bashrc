@@ -11,6 +11,9 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 # Python development
 export PYTHONDONTWRITEBYTECODE=1
 
+#Default terminal
+export TERMINAL=gnome-terminal
+
 # Default editor
 export EDITOR=vim
 
