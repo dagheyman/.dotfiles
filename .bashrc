@@ -6,7 +6,7 @@ alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 
 # Colors for black background
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+#export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 # Python development
 export PYTHONDONTWRITEBYTECODE=1
@@ -28,3 +28,6 @@ HISTFILESIZE=2000
 
 # Window size
 shopt -s checkwinsize
+
+# put path stuff here 
+export PATH=$PATH:/home/dag/.local/bin
