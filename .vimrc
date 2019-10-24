@@ -33,3 +33,6 @@ filetype indent on
 
 " Enable the mouse
 set mouse=a
+set ttymouse=xterm2
+
+set clipboard=unnamedplus

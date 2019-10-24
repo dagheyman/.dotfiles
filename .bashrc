@@ -25,6 +25,8 @@ gpg-connect-agent updatestartuptty /bye >> /dev/null
 shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+
 
 # Window size
 shopt -s checkwinsize
