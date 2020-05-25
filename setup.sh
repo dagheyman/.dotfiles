@@ -14,6 +14,7 @@ fi
 # Create the symlinks. Will replace current configuration files.
 echo "Creating links..."
 ln -sf .dotfiles/.bashrc
+ln -sf .dotfiles/.zshrc
 ln -sf .dotfiles/.vimrc
 ln -sf .dotfiles/.tmux.conf
 ln -sf .dotfiles/.gdbinit
