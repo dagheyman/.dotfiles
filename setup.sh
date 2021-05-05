@@ -18,10 +18,6 @@ ln -sf .dotfiles/.zshrc
 ln -sf .dotfiles/.vimrc
 ln -sf .dotfiles/.tmux.conf
 ln -sf .dotfiles/.gdbinit
-ln -sf ~/.dotfiles/.gnupg/gpg.conf .gnupg/gpg.conf
-ln -sf ~/.dotfiles/.gnupg/gpg-agent.conf .gnupg/gpg-agent.conf
-ln -sf ~/.dotfiles/.gnupg/scdaemon.conf .gnupg/scdaemon.conf
 echo "...done."
 
 exit 0
-

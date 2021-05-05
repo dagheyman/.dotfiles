@@ -1,9 +1,8 @@
 " No swap-file
 set noswapfile
 
-" Colors and highlighting
+" Syntax highlighting
 syntax on
-set background=dark
 
 " Indentation and tabs
 set tabstop=4 " how many spaces a tab should take up
@@ -35,4 +34,5 @@ filetype indent on
 set mouse=a
 set ttymouse=xterm2
 
+" Clipboard
 set clipboard=unnamedplus
