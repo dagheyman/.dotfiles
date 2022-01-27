@@ -15,8 +15,8 @@ au FileType py set autoindent " indent the next line when you start a new line
 au FileType py set smartindent " indent after things like a colon
 au FileType py set textwidth=79
 
-" Show trailing whitespace
-set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
+" Show trailing whitespace for py
+au FileType py set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 " Searching
 set hlsearch
@@ -34,5 +34,5 @@ filetype indent on
 set mouse=a
 set ttymouse=xterm2
 
-" Clipboard
-set clipboard=unnamedplus
+" Use the system clipboard register
+set clipboard=unnamed
