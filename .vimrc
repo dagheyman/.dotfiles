@@ -36,3 +36,6 @@ set ttymouse=xterm2
 
 " Use the system clipboard register
 set clipboard=unnamed
+
+" Enable plugins
+filetype plugin on
