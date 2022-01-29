@@ -6,3 +6,7 @@ export EDITOR=vim
 
 # Enable vi mode
 bindkey -v
+
+# Fix backspace in vi mode
+bindkey "^?" backward-delete-char
+
