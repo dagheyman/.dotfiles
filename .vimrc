@@ -26,3 +26,10 @@ set clipboard=unnamed
 
 " Needed for correct colors in tmux
 set background=dark
+
+" List plugins with vim-plug, use :PlugInstall to install all.
+call plug#begin()
+
+Plug 'scrooloose/nerdtree'
+
+call plug#end()
