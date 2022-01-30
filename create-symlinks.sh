@@ -16,6 +16,7 @@ echo "Creating links..."
 ln -sf .dotfiles/.zshrc
 ln -sf .dotfiles/.vimrc
 ln -sf .dotfiles/.tmux.conf
+ln -sf .dotfiles/.gitconfig.conf
 echo "...done."
 
 exit 0
