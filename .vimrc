@@ -27,6 +27,12 @@ set clipboard=unnamed
 " Needed for correct colors in tmux
 set background=dark
 
+" No highlight in vertical split line
+highlight VertSplit cterm=NONE
+
+" No extra status line when multiple windows open
+set laststatus=0
+
 " List plugins with vim-plug, use :PlugInstall to install all.
 call plug#begin()
 
