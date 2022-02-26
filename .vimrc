@@ -36,6 +36,19 @@ set laststatus=0
 " List plugins with vim-plug, use :PlugInstall to install all.
 call plug#begin()
 
+" File browsing
 Plug 'scrooloose/nerdtree'
 
+" Terraform
+Plug 'hashivim/vim-terraform'
+
+" Python
+Plug 'psf/black'
+
+" A colorscheme
+Plug 'jnurmine/Zenburn'
+
 call plug#end()
+
+" Use the zenburn colorscheme
+colorscheme zenburn
