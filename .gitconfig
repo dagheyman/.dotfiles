@@ -3,3 +3,4 @@
 	email = dag.heymankajevic@tink.com
 [alias]
 	st = status
+	sync = !git checkout master && git fetch upstream && git rebase upstream/master && git push

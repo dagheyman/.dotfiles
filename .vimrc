@@ -31,24 +31,38 @@ set background=dark
 highlight VertSplit cterm=NONE
 
 " No extra status line when multiple windows open
-set laststatus=0
+"set laststatus=0
 
-" List plugins with vim-plug, use :PlugInstall to install all.
+" Remove vertical split fill character
+set fillchars+=vert:\ 
+
+"List plugins with vim-plug, use :PlugInstall to install all.
 call plug#begin()
 
 " File browsing
-Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
+" NERDTree mappings
+"map = :NERDTreeToggleVCS<CR>
 
 " Terraform
 Plug 'hashivim/vim-terraform'
 
 " Python
 Plug 'psf/black'
+"Plug 'python-mode/python-mode'
+
+" Go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " A colorscheme
-Plug 'jnurmine/Zenburn'
+"Plug 'jnurmine/Zenburn'
+Plug 'ericbn/vim-solarized'
+
+" Fzf
+Plug 'junegunn/fzf'
 
 call plug#end()
 
-" Use the zenburn colorscheme
-colorscheme zenburn
+" Edit completion
+set wildcharm=<C-z>
+nnoremap ,e :e **/*<C-z><S-Tab>
