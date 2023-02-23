@@ -56,7 +56,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " A colorscheme
 "Plug 'jnurmine/Zenburn'
-Plug 'ericbn/vim-solarized'
+"Plug 'ericbn/vim-solarized'
 
 " Fzf
 Plug 'junegunn/fzf'
